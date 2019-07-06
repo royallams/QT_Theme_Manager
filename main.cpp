@@ -1,11 +1,11 @@
 #include "mainwindow.h"
 #include <QApplication>
-#include "DemoQTGUI.h"
+
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
+    MainWindow w;
+    w.show();
 
-    DemoQtGUI test;
-    test.show();
     return a.exec();
 }
