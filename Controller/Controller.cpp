@@ -208,7 +208,7 @@ void Controller::Update()
     case kDefaultPath:
         style_sheet_file_path= model_->GetFilePath();
         break;
-    case kLatestPath:
+    case kPreviousPath:
         style_sheet_file_path= model_->GetNewStyleSheetFilePath();
         break;
     default:

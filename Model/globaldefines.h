@@ -39,7 +39,7 @@ enum  kClassType{
 
 enum  kStyleSheetPathType{
     kDefaultPath,
-    kLatestPath,
+    kPreviousPath,
 };
 
 
